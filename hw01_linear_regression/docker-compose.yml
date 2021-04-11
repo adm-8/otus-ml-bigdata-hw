@@ -3,7 +3,7 @@ services:
 
   # Almond
   almond:
-    image: almondsh/almond:latest
+    image: adm8/hw01_linear_regression_almond_1:latest
     ports:
       - 8888:8888
       - 4040-4050:4040-4050

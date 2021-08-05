@@ -26,4 +26,16 @@ Default Postgres connection credentials:
     username: postgres
     password: postgres
     port: 5432
+    
+/opt/airflow/airflow.cfg
+```
+
+#### Переключение контекста на определенный нейспейс
+```
+kubectl config set-context --current --namespace=airflow
+```
+
+#### Запуск bash в определенном поде
+```
+kubectl exec --stdin --tty airflow-webserver-5df6b7d4bc-l9rcg -- /bin/bash
 ```

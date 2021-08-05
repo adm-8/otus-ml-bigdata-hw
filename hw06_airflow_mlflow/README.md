@@ -16,3 +16,14 @@ helm install airflow apache-airflow/airflow --namespace airflow
 Airflow Webserver:     kubectl port-forward svc/airflow-webserver 8080:8080 --namespace airflow
 Flower dashboard:      kubectl port-forward svc/airflow-flower 5555:5555 --namespace airflow
 ```
+
+####
+```
+Default Webserver (Airflow UI) Login credentials:
+    username: admin
+    password: admin
+Default Postgres connection credentials:
+    username: postgres
+    password: postgres
+    port: 5432
+```

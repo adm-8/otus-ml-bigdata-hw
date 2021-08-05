@@ -17,7 +17,7 @@ Airflow Webserver:     kubectl port-forward svc/airflow-webserver 8080:8080 --na
 Flower dashboard:      kubectl port-forward svc/airflow-flower 5555:5555 --namespace airflow
 ```
 
-####
+#### Доступы и полезные пути
 ```
 Default Webserver (Airflow UI) Login credentials:
     username: admin
@@ -27,7 +27,8 @@ Default Postgres connection credentials:
     password: postgres
     port: 5432
     
-/opt/airflow/airflow.cfg
+/opt/airflow/airflow.cfg - путь к конфигу Airflow 
+/opt/airflow/dags - путь к папке с дагами
 ```
 
 #### Переключение контекста на определенный нейспейс

@@ -1,0 +1,5 @@
+.DS_Store
+.idea/
+hw06_airflow_mlflow/logs/
+lesson_docker/otus-ml-skel
+lesson_kuber/otus-ml-skel
